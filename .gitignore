@@ -1,33 +1,30 @@
-# Gradle files
-.gradle/
-build/
+# Compiled Object files
+*.o
+*.obj
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Compiled Dynamic libraries
+*.dll
+*.so
+*.dylib
 
-# Log/OS Files
-*.log
+# Executables
+*.exe
+*.out
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+# Precompiled Headers
+*.gch
+*.pch
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Build folder (for generated build files)
+/build/
 
-# Keystore files
-*.jks
-*.keystore
+# Dependency directories
+# (Modify this list based on your build system)
+/deps/
+/vendor/
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+cmake_install.cmake
